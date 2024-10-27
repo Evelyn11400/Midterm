@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Lime Grilled Steak",
+    "sweetness": 65.04,
+    "saltiness": 8.17,
+    "sourness": 100.0,
+    "bitterness": 51.97,
+    "savoriness": 8.36,
+    "fattiness": 15.1,
+    "spiciness": 0.0
+  },
+  {
+    "id": "2",
+    "name": "Chili Vegetable Soup",
+    "sweetness": 78.07,
+    "saltiness": 100.0,
+    "sourness": 89.81,
+    "bitterness": 43.26,
+    "savoriness": 58.06,
+    "fattiness": 44.47,
+    "spiciness": 5950.0
+  },
+  {
+    "id": "3",
+    "name": "Parsnips Chicken Breast",
+    "sweetness": 43.38,
+    "saltiness": 100.0,
+    "sourness": 34.36,
+    "bitterness": 31.59,
+    "savoriness": 71.53,
+    "fattiness": 62.48,
+    "spiciness": 0.0
+  },
+  {
+    "id": "4",
+    "name": "Honey Pecan Pie",
+    "sweetness": 100.0,
+    "saltiness": 17.46,
+    "sourness": 2.09,
+    "bitterness": 1.08,
+    "savoriness": 10.04,
+    "fattiness": 48.91,
+    "spiciness": 0.0
+  },
+  {
+    "id": "5",
+    "name": "Herbal Tea",
+    "sweetness": 100.0,
+    "saltiness": 56.31,
+    "sourness": 53.63,
+    "bitterness": 23.36,
+    "savoriness": 4.94,
+    "fattiness": 55.68,
+    "spiciness": 0.0
+  },
+  {
+    "id": "6",
+    "name": "Chocolate Cream Cheese Cupcakes",
+    "sweetness": 95.0,
+    "saltiness": 53.62,
+    "sourness": 27.21,
+    "bitterness": 12.71,
+    "savoriness": 20.34,
+    "fattiness": 96.55,
+    "spiciness": 0.0
+  }
+]
