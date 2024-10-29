@@ -2,24 +2,30 @@
 import { useState } from "react";
 import styles from "../../page.module.css";
 
-export default function HeroMatch({ hero }) {
+export default function HeroMatch({ hero, selectedFood }) {
   if (!hero) return null;
 
   return (
     <div>
-      <h2>Matched Hero</h2>
-      <p>
-        <h3>Name:</h3> {hero.name}
-      </p>
-      <h3>Powerstats:</h3>
-      <ul>
-        <li>Intelligence: {hero.intelligence}</li>
-        <li>Strength: {hero.strength}</li>
-        <li>Speed: {hero.speed}</li>
-        <li>Durability: {hero.durability}</li>
-        <li>Power: {hero.power}</li>
-        <li>Combat: {hero.combat}</li>
-      </ul>
+      <div className={styles.heroTitle}>
+        <p>Your matched hero is...</p>
+      </div>
+
+      <div className={styles.heroName}>
+        <p>{hero.name}</p>
+      </div>
+      <div className={styles.heroInfoContainer}>
+        <img src={hero.image} className={styles.heroImage} />
+        <div className={styles.heroInfo}>
+          <p>
+            {selectedFood.name} is rich in {selectedFood.highestFlavor}.
+          </p>
+          <p>
+            This taste match the {hero.highestStat} of {hero.name}, the value is{" "}
+            {hero.highestValue}.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

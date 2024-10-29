@@ -15,23 +15,23 @@ export function getHighestFlavorAttribute(food) {
 export function getHeroIdByFlavor(highestFlavor) {
   let heroId;
   switch (highestFlavor) {
-    case "sweetness":
-      heroId = 1;
+    case "sweetness": //intell
+      heroId = [17, 24, 487];
+    case "saltiness": //strength
+      heroId = [1, 484];
       break;
-    case "saltiness":
-      heroId = 2;
+    case "sourness": //power
+      heroId = [242, 526];
       break;
-    case "sourness":
-      heroId = 3;
+    case "fattiness": //durabilty
+      heroId = [4, 6, 13, 506];
       break;
-    case "fattiness":
-      heroId = 4;
-      break;
-    case "spiciness":
-      heroId = 5;
+    case "spiciness": //combat
+      heroId = [10, 11, 63, 435];
       break;
     default:
       heroId = 1;
   }
-  return heroId;
+  const randomIndex = Math.floor(Math.random() * heroId.length);
+  return heroId[randomIndex];
 }

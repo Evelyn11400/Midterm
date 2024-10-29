@@ -11,41 +11,104 @@
 
 .pageWrapper .title {
   font-family: "Sedgwick Ave Display", cursive;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .foodListWrapper {
   display: flex;
+  justify-content: center;
   min-width: 1180px;
+  padding-top: 20px;
 }
 
 .foodListWrapper button {
+  align-items: center;
   all: unset;
   background-color: rgb(204, 230, 206);
-
-  width: 200px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
   border-radius: 30px;
+  cursor: pointer;
+  height: 100px;
+  justify-content: center;
   margin: 10px;
-  transition: background-color 0.3s, box-shadow 0.3s;
+  transition: background-color 0.3s;
+  width: 250px;
+}
+
+.foodListWrapper button p {
+  color: rgb(33, 63, 36);
+  font-family: "Fredericka", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
 }
 
 .foodListWrapper button:focus {
   background-color: rgb(33, 63, 36);
 }
 
-.foodListWrapper button p {
+.foodListWrapper button:focus p {
+  color: white;
+}
+
+.createHero {
+  padding: 30px;
+  display: flex;
+}
+.createHero button {
+  all: unset;
+  border-radius: 30px;
+  margin: 0 auto;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(204, 230, 206);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.createHero button p {
   color: rgb(33, 63, 36);
   font-family: "Fredericka", sans-serif;
   font-size: 25px;
   text-align: center;
-  padding: 10px;
+  margin: 17px;
 }
 
-.foodListWrapper button:focus p {
+.createHero button:active {
+  background-color: rgb(33, 63, 36);
+}
+
+.createHero button:active p {
   color: white;
+}
+
+.heroTitle p {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 40px;
+}
+
+.heroName p {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+.heroInfoContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.heroImage {
+  height: 300px;
+  width: auto;
+}
+.heroInfo {
+  align-self: center;
+}
+.heroInfo p {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 28px;
+  padding: 10px;
 }
