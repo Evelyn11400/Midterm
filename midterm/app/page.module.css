@@ -2,7 +2,12 @@
   font-family: "Fredericka";
   src: url("./fonts/FrederickatheGreat-Regular.ttf");
 }
-@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Fredericka+the+Great&family=Sedgwick+Ave+Display&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+@font-face {
+  font-family: "Rubik";
+  src: url("./fonts/RubikWetPaint-Regular.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Fredericka+the+Great&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 .pageWrapper {
   background-color: blanchedalmond;
   height: 100vh;
@@ -50,6 +55,14 @@
   color: white;
 }
 
+.foodListWrapper button:hover {
+  background-color: rgb(33, 63, 36);
+}
+
+.foodListWrapper button:hover p {
+  color: white;
+}
+
 .createHero {
   padding: 30px;
   display: flex;
@@ -81,13 +94,21 @@
   color: white;
 }
 
+.createHero button:hover {
+  background-color: rgb(33, 63, 36);
+}
+
+.createHero button:hover p {
+  color: white;
+}
+
 .heroTitle p {
   font-family: "Sedgwick Ave Display", cursive;
   font-size: 40px;
 }
 
 .heroName p {
-  font-family: "Sedgwick Ave Display", cursive;
+  font-family: "Rubik", system-ui;
   font-size: 60px;
   font-weight: 700;
   text-align: center;
