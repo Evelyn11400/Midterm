@@ -30,8 +30,3 @@ export default async function fetchHeroData(heroId) {
     highestValue,
   };
 }
-
-//https://superheroapi.com/api/access-token/character-id/image
-//https://cors-anywhere.herokuapp.com/
-//https://superheroapi.com/api/access-token/character-id/image
-//https://cors-anywhere.herokuapp.com/

@@ -7,7 +7,6 @@
   font-family: "Rubik";
   src: url("./fonts/RubikWetPaint-Regular.ttf");
 }
-@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Fredericka+the+Great&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 .pageWrapper {
   background-color: blanchedalmond;
   height: 100vh;
@@ -64,26 +63,26 @@
 }
 
 .createHero {
-  padding: 30px;
   display: flex;
+  padding: 30px;
 }
 .createHero button {
   all: unset;
-  border-radius: 30px;
-  margin: 0 auto;
-  width: 300px;
-  height: 100px;
   background-color: rgb(204, 230, 206);
+  border-radius: 30px;
   cursor: pointer;
+  height: 100px;
+  margin: 0 auto;
   transition: background-color 0.3s;
+  width: 300px;
 }
 
 .createHero button p {
   color: rgb(33, 63, 36);
   font-family: "Fredericka", sans-serif;
   font-size: 25px;
-  text-align: center;
   margin: 17px;
+  text-align: center;
 }
 
 .createHero button:active {
